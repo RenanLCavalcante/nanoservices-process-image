@@ -1,0 +1,22 @@
+{
+  "name": "http-handler-upload-img",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.639.0",
+    "serverless": "^1.66.0",
+    "serverless-apigw-binary": "^0.4.4",
+    "serverless-offline": "^6.0.0-alpha.67"
+  },
+  "dependencies": {
+    "elasticsearch": "^16.7.0",
+    "uuid": "^7.0.2",
+    "uuidv4": "^6.0.6"
+  },
+  "description": ""
+}

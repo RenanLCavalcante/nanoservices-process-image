@@ -1,0 +1,22 @@
+{
+    "Records": [
+        {
+            "EventSource": "aws:sns",
+            "EventVersion": "1.0",
+            "EventSubscriptionArn": "arn:aws:sns:us-east-1:732082173437:s3-nanoservices-put_topic:41e21e4e-3db1-48be-b537-7cb4296dc81c",
+            "Sns": {
+                "Type": "Notification",
+                "MessageId": "3789e429-96ec-5d10-be30-b2d9b456b2f2",
+                "TopicArn": "arn:aws:sns:us-east-1:732082173437:s3-nanoservices-put_topic",
+                "Subject": "Amazon S3 Notification",
+                "Message": "{\"Records\":[{\"eventVersion\":\"2.1\",\"eventSource\":\"aws:s3\",\"awsRegion\":\"us-east-1\",\"eventTime\":\"2020-03-21T14:10:58.403Z\",\"eventName\":\"ObjectCreated:Put\",\"userIdentity\":{\"principalId\":\"AWS:AROA2U437OX6SZ5SQ2DST:http-handler-upload-img-dev-upload\"},\"requestParameters\":{\"sourceIPAddress\":\"3.218.252.201\"},\"responseElements\":{\"x-amz-request-id\":\"746FBCB44A7D2220\",\"x-amz-id-2\":\"LeMQHm+i+GfvAZxbPqgttnkjZoV8wQNyfeSwuO8AISpn3IB/FQd0QC5oI7MRXEyw8uL/fNSEBlKJmF3iHNlHEHrb8dwq4Cx/\"},\"s3\":{\"s3SchemaVersion\":\"1.0\",\"configurationId\":\"s3-nanoservicos-put-notification\",\"bucket\":{\"name\":\"nanoservices-images-rlc2\",\"ownerIdentity\":{\"principalId\":\"A24XH5U6Q3CB7M\"},\"arn\":\"arn:aws:s3:::nanoservices-images-rlc2\"},\"object\":{\"key\":\"409a7de2-68f7-4409-bba1-0cfa8c05e9ef.jpeg\",\"size\":1166975,\"eTag\":\"089862b68f43b52f80a8ddfb2547331c\",\"sequencer\":\"005E7620796A8609E0\"}}}]}",
+                "Timestamp": "2020-03-21T14:11:06.249Z",
+                "SignatureVersion": "1",
+                "Signature": "LT6o9TsKxwE+NGNX0tInUmluF2ILS6VpfNZ3bYJFyj/Ur1iwHb1TJCen816S2sSRZaRfjCGWnszn/Xk3OKKKhLVgqfXEK3jELRj9h3NfNC1I6Rm6ch1B66hVr+iDcY1xOI8zFQlNvLBtlcLf7RRYFdtUdBxKoWllw0c++XXwJre9a79u9sXffW/dGB2K2zrvIjEwsGaJKyZi0AsY/nvk+mzW50X0U2HVoRZ/IkoNRSlGebXkDAr5ZaoBZUk67cnYHBMxR7rCaqARe1BQO43OyYGpzmGmR98cD6DzxsK0YMHMdNdznbCQHMS0Ae6znc+6wIR9JaIm5SfF3MV2VlwvnQ==",
+                "SigningCertUrl": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-a86cb10b4e1f29c941702d737128f7b6.pem",
+                "UnsubscribeUrl": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:732082173437:s3-nanoservices-put_topic:41e21e4e-3db1-48be-b537-7cb4296dc81c",
+                "MessageAttributes": {}
+            }
+        }
+    ]
+}
