@@ -1,4 +1,4 @@
-#PROCESSAMENTO DE IMAGENS
+# PROCESSAMENTO DE IMAGENS
 
 * **Lambda: http-handler-upload-img:POST** - Recebe uma imagem atráves do API gateway da AWS, gera um id para imagem e salva no S3.
 * **Lambda: thumbnail-handler** - Resgata uma imagem do S3 e aplica um tamanho de 100 x 100 salvando em outro bucket.
@@ -9,12 +9,12 @@
 
 * Lambdas criados utilizando o [Serverless Framework] (https://serverless.com/)
 
-##Recursos criados no console da AWS: 
+## Recursos criados no console da AWS: 
 1. S3
 2. SNS
 3. SQS
 4. DynamoDB
 
-##Eventos configurados no console:
+## Eventos configurados no console:
 1. Evento de PUT do S3 disparado para o SNS
 
